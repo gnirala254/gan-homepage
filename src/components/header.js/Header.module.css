@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    background: yellow;
+}
+
+.checkout{
+    background: blue;
+    color: white;
+    padding: 0.5em 1em;
+    font-weight: bold;
+}
