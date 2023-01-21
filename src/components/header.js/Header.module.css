@@ -1,12 +1,80 @@
-.container{
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background: yellow;
 }
 
-.checkout{
-    background: blue;
-    color: white;
-    padding: 0.5em 1em;
+.checkout {
+    background: yellow;
+    color: black;
+    padding: 5px 20px;
     font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    right: 24px;
+    bottom: 0;
+}
+
+.topDiv {
+    height: 18vh;
+    width: 100vw;
+    background-color: rgb(224, 222, 222);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btmDiv {
+    height: 12vh;
+    width: 100vw;
+    background-color: white;
+
+}
+
+.imgClass {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+.flexDiv {
+    display: flex;
+    position: absolute;
+    top: 50%;
+}
+
+.itemsDiv {
+    background-color: white;
+    padding: 50px 0px 30px 60px;
+}
+
+.itemsDiv1 {
+    background-color: white;
+    padding: 50px 0px 30px 60px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg, grey, white) 0.7;
+}
+
+.itemsDiv3 {
+    background-color: white;
+    padding: 50px 0px 30px 60px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(45deg, white, grey) 0.7;
+}
+
+.lastPad {
+    padding-right: 60px;
 }

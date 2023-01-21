@@ -5,4 +5,10 @@
     align-items: center;
     margin: 2em 4em;
     flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.cart {
+    display: flex;
+    gap: 2em;
 }

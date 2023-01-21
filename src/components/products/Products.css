@@ -1,8 +1,30 @@
-.productsContainer{
+.productsContainer {
     display: flex;
     justify-content: center;
-    gap: 4em;
+    gap: 2em;
     align-items: center;
     margin: 2em 4em;
     flex-wrap: wrap;
+}
+
+.img {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-top: -8px;
+}
+
+h2 {
+    border-bottom: 1px solid grey;
+    padding-bottom: 12px;
+    margin-bottom: 0;
+}
+
+.headingDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+    flex-direction: column;
 }

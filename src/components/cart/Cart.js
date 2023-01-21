@@ -8,9 +8,12 @@ function Cart() {
 
     return (
         <div className="cartsContainer">
-            {
-                cartState.cart.map((product, index) => <Product productInfo={product} key={index} />)
-            }
+            <h2>Cart</h2>
+            <div className="cart">
+                {
+                    cartState.cart.map((product, index) => <Product productInfo={product} key={index} />)
+                }
+            </div>
         </div>
     )
 }

@@ -1,19 +1,21 @@
-.productImg{
+.productImg {
     width: 12em;
     height: 12em;
 }
 
-.name{
+.name {
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 5px;
+    margin-top: 1em;
 }
 
-.price{
+.price {
     text-align: center;
     margin-bottom: 1.5em;
+    color: crimson;
 }
 
-.btn{
+.btn {
     position: absolute;
     bottom: -1em;
     left: 4em;
@@ -22,9 +24,10 @@
     color: white;
     font-weight: 600;
     padding: 0.4em 1em;
+    cursor: pointer;
 }
 
-.btn2{
+.btn2 {
     position: absolute;
     bottom: -1em;
     left: 2em;
@@ -33,12 +36,19 @@
     color: white;
     font-weight: 600;
     padding: 0.4em 1em;
+    cursor: pointer;
 }
 
-.productContainer{
+.productContainer {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
+    border: 1px solid white;
     background: whitesmoke;
     position: relative;
+    box-shadow: 0px 1px grey;
+}
+
+.productContainer:hover {
+    transition: transform .5s ease;
+    transform: scale(1.07);
 }
